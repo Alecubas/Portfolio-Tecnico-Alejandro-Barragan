@@ -52,7 +52,7 @@ El proyecto consiste en una web sobre una tienda de surf y bodyboard. Incluye un
 - Presentar un proyecto en GitHub.
 
 **Enlace al proyecto:**  
-[Pegar aquí el enlace al repositorio de LaEsquinaSurf]
+(https://github.com/Alecubas/Portfolio-Tecnico-Alejandro-Barragan/tree/main/PROYECTO%202%C2%BATRIMESTRE)
 
 ## Tecnologías y herramientas
 
@@ -82,5 +82,5 @@ Mis objetivos profesionales son:
 
 - **Nombre:** Alejandro Barragán Cubas
 - **Formación:** ASIR - Administración de Sistemas Informáticos en Red
-- **GitHub:** [Pegar aquí el enlace a tu perfil de GitHub]
-- **LinkedIn:** [Pegar aquí el enlace a tu LinkedIn si lo tienes]
+- **GitHub:** [(https://github.com/Alecubas)]
+- **LinkedIn:** [(https://www.linkedin.com/in/alejandro-barragan-cubas-9690443a0)]
