@@ -1,60 +1,86 @@
-# LaEsquinaSurf - Proyecto de Lenguaje de Marcas
+# Portfolio Técnico - Alejandro Barragán Cubas
 
-Proyecto realizado por **Alejandro Barragán Cubas** para la asignatura de **Lenguaje de Marcas**.
+Hola, soy **Alejandro Barragán Cubas**, estudiante de **ASIR - Administración de Sistemas Informáticos en Red**.
 
-## Descripción
+Este repositorio funciona como mi portfolio técnico. Aquí iré recopilando proyectos, prácticas y trabajos relacionados con mi formación en informática, especialmente en sistemas, redes, servicios, seguridad y desarrollo web básico.
 
-LaEsquinaSurf es una página web sobre una tienda de surf y bodyboard.  
-El proyecto incluye una página principal, diferentes catálogos de productos, una página de contacto y contenido multimedia relacionado con el mundo del surf.
+## Sobre mí
 
-La web está pensada para mostrar productos como tablas de surf, bodyboards, neoprenos, aletas y accesorios.
+Actualmente estoy estudiando ASIR y me estoy formando en el sector TIC.  
+Me interesa especialmente el área de **administración de sistemas, redes y ciberseguridad**.
 
-## Objetivo del proyecto
+Durante mi formación estoy adquiriendo conocimientos sobre:
 
-El objetivo de este proyecto es aplicar los conocimientos aprendidos en Lenguaje de Marcas, utilizando HTML, CSS y JavaScript para crear una página web estructurada, visual y navegable.
+- Sistemas operativos
+- Redes informáticas
+- Servicios en red
+- Bases de datos
+- Seguridad informática
+- Lenguaje de marcas
+- HTML, CSS y JavaScript
+- GitHub y documentación técnica
 
-## Tecnologías utilizadas
+## Objetivo del portfolio
+
+El objetivo de este portfolio es mostrar mi evolución profesional y técnica a través de proyectos reales realizados durante mi formación.
+
+También me sirve para crear una identidad digital profesional y mejorar mi empleabilidad dentro del sector TIC.
+
+## Proyectos
+
+### LaEsquinaSurf - Proyecto de Lenguaje de Marcas
+
+Página web creada para la asignatura de **Lenguaje de Marcas**.
+
+El proyecto consiste en una web sobre una tienda de surf y bodyboard. Incluye una página principal, diferentes catálogos de productos, una página de contacto, imágenes, vídeo, estilos CSS y uso básico de JavaScript.
+
+**Tecnologías utilizadas:**
 
 - HTML
 - CSS
 - JavaScript
 - Imágenes
 - Vídeo
+
+**Qué he aprendido con este proyecto:**
+
+- Crear una página web estructurada.
+- Organizar archivos y carpetas.
+- Usar hojas de estilo CSS.
+- Crear navegación entre varias páginas.
+- Insertar imágenes y contenido multimedia.
+- Presentar un proyecto en GitHub.
+
+**Enlace al proyecto:**  
+[Pegar aquí el enlace al repositorio de LaEsquinaSurf]
+
+## Tecnologías y herramientas
+
+Actualmente estoy trabajando o aprendiendo con:
+
+- Linux
+- Windows
+- Redes
+- HTML
+- CSS
+- JavaScript
 - GitHub
+- VirtualBox
+- Visual Studio Code
 
-## Estructura del proyecto
+## Objetivos profesionales
 
-```text
-LaEsquinaSurf/
-│
-├── index.html
-├── CSS/
-│   ├── estilos.css
-│   ├── estilocatalogo.css
-│   └── estiloscontacto.css
-│
-├── JS/
-│   └── fase5.js
-│
-├── imagenes/
-│   └── imágenes usadas en la web
-│
-├── videos/
-│   └── vídeo de la página
-│
-└── Paginas/
-    ├── Catalogos/
-    │   ├── catalogo.html
-    │   ├── catalogobodyboard.html
-    │   ├── catalogotablas.html
-    │   ├── catalogoneoprenos.html
-    │   ├── catalogoaletas.html
-    │   └── catalogoaccesorios.html
-    │
-    └── contacto/
-        └── contacto.html
+Mis objetivos profesionales son:
 
-## Autor
+- Mejorar mis conocimientos en administración de sistemas y redes.
+- Aprender más sobre ciberseguridad.
+- Realizar proyectos técnicos para ampliar mi portfolio.
+- Mejorar mi perfil profesional en LinkedIn y GitHub.
+- Prepararme para las prácticas y futuras oportunidades laborales en el sector TIC.
 
-Alejandro Barragán Cubas  
-Estudiante de ASIR
+## Contacto
+
+- **Nombre:** Alejandro Barragán Cubas
+- **Formación:** ASIR - Administración de Sistemas Informáticos en Red
+- **GitHub:** [Pegar aquí el enlace a tu perfil de GitHub]
+- **LinkedIn:** [Pegar aquí el enlace a tu LinkedIn si lo tienes]
