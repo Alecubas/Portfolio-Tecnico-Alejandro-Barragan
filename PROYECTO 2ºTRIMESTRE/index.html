@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LaEsquinaSurf | Inicio</title>
+  <link rel="shortcut icon" href="imagenes/LOGO.png" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="CSS/estilos.css">
+
+</head>
+
+
+<body id="pagina" class="claro">
+  <header class="header">
+    <div class="nombre-tienda">
+      <a class="logo" href="index.html">
+        <img src="imagenes/LOGO.png" alt="logo laEsquinaSurf">
+        <h2>LaEsquinaSurf</h2>
+      </a>
+    </div>
+
+    <div class="buscador">
+      <img class="icono-lupa" src="imagenes/lupa.png" alt="Buscar">
+      <input type="text" placeholder="Buscar productos…">
+    </div>
+
+    <button onclick="cambiarModo()" id="botonModo" class="btn-modo">Cambiar estilo</button>
+
+    <nav class="nav">
+      <a class="is-active" href="index.html">Inicio</a>
+      <a href="Paginas/Catalogos/catalogo.html">Catálogo</a>
+      <a href="Paginas/contacto/contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- portada con vídeo -->
+    <section class="portada">
+      <video class="portada-video" autoplay muted loop playsinline>
+        <source src="videos/857185-hd_1280_720_30fps.mp4" type="video/mp4" />
+      </video>
+      <div class="portada-content">
+        <h1>Tienda de surf y bodyboard</h1>
+        <p>Tablas, neoprenos, aletas y accesorios para tus mejores sesiones en el agua.</p>
+        <a class="btn" href="Paginas/Catalogos/catalogo.html">Ver tienda</a>
+      </div>
+    </section>
+
+    <!-- CATEGORÍAS -->
+    <section class="section">
+      <h2>Categorías</h2>
+
+      <div class="secciones-flex">
+        <article class="card">
+          <h3>Tablas</h3>
+          <a href="Paginas/Catalogos/catalogobodyboard.html">
+            <img src="imagenes/Categori1.jfif" alt="Categoría: Tablas de surf y bodyboard">
+          </a>
+          <p>Surf y bodyboard.</p>
+        </article>
+
+        <article class="card">
+          <h3>Neoprenos</h3>
+          <a href="Paginas/Catalogos/catalogoneoprenos.html">
+            <img src="imagenes/categoria23.jpg" alt="Categoría: Neoprenos">
+          </a>
+          <p>Para todas las temporadas.</p>
+        </article>
+
+        <article class="card">
+          <h3>Accesorios</h3>
+          <a href="Paginas/Catalogos/catalogoaletas.html">
+            <img src="imagenes/Ctaegoria3.jfif" alt="Categoría: Accesorios">
+          </a>
+          <p>Aletas, leash, quillas, cera, fundas…</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS DESTACADOS (CARRUSEL) -->
+    <section class="section">
+      <h2>Productos destacados</h2>
+
+      <div class="slider" aria-label="Carrusel de productos destacados">
+        
+        <input type="radio" name="s" id="s1" checked>
+        <input type="radio" name="s" id="s2">
+        <input type="radio" name="s" id="s3">
+        <input type="radio" name="s" id="s4">
+
+        <!-- Ventana -->
+        <div class="slider-viewport">
+          <div class="slider-track">
+
+            <!-- SLIDE 1 -->
+            <div class="slide">
+              <div class="slide-flex">
+                <article class="item">
+                  <img src="imagenes/Galeria1.png" alt="Bodyboard Erizos No Fear Superior K19">
+                  <p>Erizos No Fear Superior K19 ALAN MUÑOZ MID BLUE / MALLARD GREEN</p>
+                  <div class="precio"><p>PVP:295,99€</p></div>
+                </article>
+
+                <article class="item">
+                  <img src="imagenes/Galeria2.png" alt="NMD Ben Player Splitter Channel Kinetic PP">
+                  <p>NMD Ben Player Splitter Channel Kinetic PP Blue / White 2026</p>
+                  <div class="precio"><p>PVP:250,00€</p></div>
+                </article>
+
+                <article class="item">
+                  <img src="imagenes/Galeria3.png" alt="ERIZOS WILLY LUJAN NO RETURN SUPERIOR K19">
+                  <p>ERIZOS WILLY LUJAN NO RETURN SUPERIOR K19 NEGRO / BLANCO</p>
+                  <div class="precio"><p>PVP:230,00€</p></div>
+                </article>
+              </div>
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="slide">
+              <div class="slide-flex">
+                <article class="item">
+                  <img src="imagenes/galeria4.png" alt="NMD Ben Player Quantum PFST PP Quad Concave 2026">
+                  <p>NMD Ben Player Quantum PFST PP Quad Concave. 2026</p>
+                  <div class="precio"><p>PVP:460,00€</p></div>
+                </article>
+
+                <article class="item">
+                  <img src="imagenes/Galrai5.png" alt="VS Dave Winchester Mini Quad PP K19 Bodyboard 2026">
+                  <p>VS Dave Winchester Mini Quad PP K19 Bodyboard 2026</p>
+                  <div class="precio"><p>PVP:350,00€</p></div>
+                </article>
+
+                <article class="item">
+                  <img src="imagenes/Gslaria6.jpg" alt="Traje XCEL COMP X TDC X2 3/2 MEN">
+                  <p>TRAJE XCEL COMP X TDC X2 3/2 MEN</p>
+                  <div class="precio"><p>PVP:150,00€</p></div>
+                </article>
+              </div>
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="slide">
+              <div class="slide-flex">
+                <article class="item">
+                  <img src="imagenes/Galeria7.png" alt="Traje XCEL COMP FULL 4/3 MEN BACKZIP NEGRO">
+                  <p>TRAJE XCEL COMP FULL 4/3 MEN BACKZIP NEGRO</p>
+                  <div class="precio"><p>PVP:220,00€</p></div>
+                </article>
+
+                <article class="item">
+                  <img src="imagenes/galeria8.jpg" alt="Traje XCEL COMP-X 2/2 SHORTY">
+                  <p>TRAJE XCEL COMP-X 2/2 SHORTY</p>
+                  <div class="precio"><p>PVP:120,00€</p></div>
+                </article>
+
+                <article class="item">
+                  <img src="imagenes/Galaeria.jpg" alt="TABLA ALOHA WOOD STEP XE 5F FUTURE">
+                  <p>TABLA ALOHA WOOD STEP XE 5F FUTURE</p>
+                  <div class="precio"><p>PVP:550,00€</p></div>
+                </article>
+              </div>
+            </div>
+
+            <!-- SLIDE 4 -->
+            <div class="slide">
+              <div class="slide-flex">
+                <article class="item">
+                  <img src="imagenes/Galaraia10.jpg" alt="BODYBOARD SCIENCE PRO LTD TRI QUAD VENT F4">
+                  <p>BODYBOARD SCIENCE PRO LTD TRI QUAD VENT F4</p>
+                  <div class="precio"><p>PVP:290,00€</p></div>
+                </article>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Flechas -->
+        <div class="slider-flechas">
+          <label class="flecha anterior a1" for="s4" aria-label="Anterior">❮</label>
+          <label class="flecha siguiente a1" for="s2" aria-label="Siguiente">❯</label>
+
+          <label class="flecha anterior a2" for="s1" aria-label="Anterior">❮</label>
+          <label class="flecha siguiente a2" for="s3" aria-label="Siguiente">❯</label>
+
+          <label class="flecha anterior a3" for="s2" aria-label="Anterior">❮</label>
+          <label class="flecha siguiente a3" for="s4" aria-label="Siguiente">❯</label>
+
+          <label class="flecha anterior a4" for="s3" aria-label="Anterior">❮</label>
+          <label class="flecha siguiente a4" for="s1" aria-label="Siguiente">❯</label>
+        </div>
+
+        <!-- Puntos -->
+        <div class="slider-dots" aria-label="Indicadores">
+          <label for="s1" class="dot" aria-label="Ir al slide 1"></label>
+          <label for="s2" class="dot" aria-label="Ir al slide 2"></label>
+          <label for="s3" class="dot" aria-label="Ir al slide 3"></label>
+          <label for="s4" class="dot" aria-label="Ir al slide 4"></label>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SOBRE LA TIENDA -->
+  <section class="sobre">
+    <div class="sobre-contenido">
+      <h2>Sobre Nosotros</h2>
+
+      <p>
+        En LaEsquinaSurf somos apasionados del surf y el bodyboard.
+        Nuestra tienda nace con el objetivo de ofrecer material de calidad
+        para riders de todos los niveles.
+      </p>
+
+      <p>
+        Trabajamos con las mejores marcas de tablas, neoprenos y accesorios,
+        seleccionando productos que realmente usamos en el agua.
+      </p>
+
+      <p>
+        Nuestro equipo está formado por surferos locales que te ayudarán
+        a elegir el equipo perfecto para cada sesión y nivel.
+      </p>
+
+      <!-- SUSCRIPCION -->
+      <div class="suscripcion">
+        <h3>Suscríbete a nuestra web</h3>
+        <p>Recibe ofertas y novedades del surf.</p>
+
+        <form class="form-suscripcion">
+          <input type="email" placeholder="Introduce tu email" required>
+          <button type="submit">Suscribirse</button>
+        </form>
+      </div>
+    </div>
+
+<button id="botonInfo" class="btn-info" onclick="ocultarMostrarInfo()">Leer más</button>
+
+<p id="infoExtra" class="ocultar">
+  También asesoramos a nuestros clientes según su nivel, estilo de surf y tipo de ola.
+  Queremos que cada persona encuentre el material adecuado para disfrutar más de cada sesión.
+</p>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-wrap">
+      <div class="footer-col">
+        <div class="marca-footer">
+          <img class="footer-logo" src="imagenes/LOGO.png" alt="Logo LaEsquinaSurf">
+          <span class="nombre-footer">LaEsquinaSurf</span>
+        </div>
+
+        <p class="footer-text">
+          LaEsquinaSurf es una tienda dirigida a amantes del Surf y Bodyboard.
+          Material seleccionado para todos los niveles.
+        </p>
+
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank">
+            <img src="imagenes/social.png" alt="Instagram">
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <img src="imagenes/facebook.png" alt="Facebook">
+          </a>
+          <a href="https://x.com/?lang=es" target="_blank">
+            <img src="imagenes/gorjeo.png" alt="Twiter">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contacto</h3>
+        <p class="footer-line"><strong>Tel:</strong> 928 788 675</p>
+        <p class="footer-line"><strong>Email:</strong> info@laesquinasurf.com</p>
+        <p class="footer-line">
+          <strong>Dirección:</strong><br>
+          Calle Numancia 13, 35007<br>
+          Las Palmas, España
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Enlaces</h3>
+        <ul class="footer-enlaces">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="Paginas/Catalogos/catalogo.html">Catálogo</a></li>
+          <li><a href="Paginas/contacto/contacto.html">Contactar</a></li>
+          <li><a href="#">Envíos</a></li>
+          <li><a href="#">Devoluciones</a></li>
+          <li><a href="#">Preguntas frecuentes</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Aviso legal</a></li>
+          <li><a href="#">Privacidad</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Realizado por Alejandro Barragan Cubas</p>
+      <p>© 2026 LaEsquinaSurf.</p>
+
+      <p>
+        Web de inspiración:
+        <a href="https://linkstore.es/" target="_blank">https://linkstore.es/</a>
+      </p>
+    </div>
+  </footer>
+
+<script src="JS/fase5.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,228 @@
+* { 
+  box-sizing: border-box; 
+}
+
+/* ===== BODY ===== */
+body { 
+  margin: 0; 
+ font-family: "Poppins", sans-serif; /*Google font*/
+   color: #111; 
+  background: #ffffff; 
+}
+
+a { 
+  color: inherit; 
+  text-decoration: none; 
+}
+
+/******************* CABECERA *************/
+.header{
+  display:flex; 
+  align-items:center; 
+  justify-content:space-between;
+  padding: 12px 16px;
+  background:#929292; 
+  border-bottom:1px solid #ddd;
+  position: sticky; 
+  top: 0;
+  height: 70px;
+}
+
+/*BOTON CAMBIAR ESTILO*/
+.btn-modo{
+ background-color: #929292;
+ color: #000000;
+ border: none;
+ font-family: "Poppins", sans-serif;
+ cursor: pointer;
+  margin-left: 12px;
+  padding:6px 10px;
+  border-radius:6px;
+  transition:.2s;
+}
+.btn-modo:hover{
+   background:#292828;
+    color:#fff;
+}
+
+/************* CAMBIO DE ESTILO *************/
+.claro{
+  background-color: white;
+  color: black;
+}
+
+.oscuro{
+  background-color: #1a1a1a;
+  color: rgb(71, 73, 179);
+}
+
+/***************** NAV ****************/
+.nav a{ 
+  margin-left: 12px;
+  padding:6px 10px;
+  border-radius:6px;
+  transition:.2s;
+}
+
+.nav a:hover{
+  background:#292828;
+  color:#fff;
+}
+
+.nav img{
+  width: 30px;
+}
+
+.nav .is-active{
+  background:#111;
+  color:#fff;
+}
+
+/***************** LOGO ****************/
+.logo{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-weight:700;
+}
+
+.logo img{
+  width:auto;
+  height:110px;
+  object-fit:contain;
+}
+
+/***************** SECCIÓN ****************/
+.section{ 
+  padding: 28px 16px; 
+  text-align:center;
+}
+
+/***************** CARDS ****************/
+
+.card h2,
+.card p,
+.form-contacto  p{
+  background-color: #929292;
+  margin: 0;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+/* ===== CONTENEDOR CONTACTO FLEX ===== */
+.contacto-flex{
+  display:flex;
+  gap:12px;
+  align-items:stretch;
+  margin-top:20px;
+}
+
+/* cada card ocupa la mitad */
+.contacto-flex .card{
+  flex:1;
+}
+
+/***************** FORMULARIO ****************/
+.form-contacto{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  text-align:center;
+  padding:14px;
+}
+
+.form-contacto label,
+.form-contacto p{
+  text-align:center;
+  margin:6px 0 0;
+}
+
+/* inputs mismo patrón web */
+.form-contacto input,
+.form-contacto select,
+.form-contacto textarea{
+  width:100%;
+  padding:10px;
+  border:1px solid #ddd;
+  border-radius:10px;
+  font-family:inherit;
+}
+
+.form-contacto input:focus,
+.form-contacto select:focus,
+.form-contacto textarea:focus{
+  border-color:#000;
+  outline:none;
+}
+
+/* textarea */
+.form-contacto textarea{
+  resize:vertical;
+}
+
+/***************** BOTÓN ****************/
+.btn{
+  display:inline-block;
+  margin-top:10px;
+  padding:10px 14px;
+  background:#111;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+}
+
+.btn:hover{
+  background:#444;
+}
+
+/***************** MAPA ****************/
+iframe{
+  border-radius:12px;
+}
+
+/***************** FOOTER SIMPLE ****************/
+.footer{
+  padding:18px 16px;
+  background:#000000;
+  border-top:1px solid #ddd;
+  text-align:center;
+  color: white;
+}
+
+/***************** RESPONSIVE ****************/
+@media (max-width: 900px){
+
+  .contacto-flex{
+    flex-direction:column;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+header{
+flex-direction: column;
+align-items: center;
+}
+
+nav{
+flex-direction: column;
+gap: 10px;
+}
+
+.contenedor-contacto{
+flex-direction: column;
+padding: 20px;
+}
+
+footer{
+flex-direction: column;
+text-align: center;
+}
+
+}
+@media (max-width: 1200px){
+  .header{
+    padding: 12px;
+  }
+}

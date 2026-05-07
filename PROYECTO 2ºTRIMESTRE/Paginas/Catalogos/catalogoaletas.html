@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>LaEsquinaSurf | Catálogo</title>
+  <link rel="shortcut icon" href="../../imagenes/LOGO.png" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../CSS/estilocatalogo.css" />
+</head>
+
+<body id="pagina" class="claro">
+  <!-- ===== HEADER  ===== -->
+  <header class="header">
+    <div class="nombre-tienda">
+      <a class="logo" href="../../index.html">
+        <img src="../../imagenes/LOGO.png" alt="Logo LaEsquinaSurf">
+        <h2>LaEsquinaSurf</h2>
+      </a>
+    </div>
+
+    <div class="buscador">
+      <img class="icono-lupa" src="../../imagenes/lupa.png" alt="Buscar">
+      <input id="buscar" type="text" placeholder="Buscar productos…">
+    </div>
+
+    <button onclick="cambiarModo()" id="botonModo" class="btn-modo">Cambiar estilo</button>
+
+
+   <nav class="nav" aria-label="Navegación principal">
+      <a href="../../index.html">Inicio</a>
+      <a class="is-active" href="catalogo.html">Catálogo</a>
+      <a href="../contacto/contacto.html">Contacto</a>
+    
+</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== portada / CABECERA DE CATEGORÍA ===== -->
+    <section class="catalogo-portada">
+      <div class="catalogo-portada-interior">
+        <nav class="Directorio" aria-label="Directorio">
+          <a href="index.html">Inicio</a>
+          <span aria-hidden="true">/</span>
+          <span>Catálogo</span>
+          <span aria-hidden="true">/</span>
+          <span>Aletas</span>
+        </nav>
+
+        <div class="titulo-catalogo">
+          <h1>Aletas</h1>
+          <p>Tablas, aletas, leash, fundas y accesorios. Material seleccionado para tus sesiones.</p>
+        </div>
+
+        <div class="contar-productos">
+          <div class="resultados">
+            <strong>Mostrando:</strong> 1 producto
+          </div>
+
+          <label class="ordenar">
+            <span>Ordenar:</span>
+            <select>
+              <option value="relevancia">Relevancia</option>
+              <option value="precio-asc">Precio: menor a mayor</option>
+              <option value="precio-desc">Precio: mayor a menor</option>
+              <option value="novedades">Novedades</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!--  LAYOUT FILTROS  LISTADO  -->
+    <section class="catalogo">
+      <!-- ASIDE FILTROS -->
+      <aside class="filtros" aria-label="Filtros del catálogo">
+        <div class="filtro-bloque">
+          <h2>Filtrar</h2>
+          <p class="filtro-ayuda">Elige las caracteristicas que se ajusten a ti.</p>
+        </div>
+
+        <div class="filtro-bloque">
+          <h3>Categorías</h3>
+          <ul class="filtro-lista">
+            <li><a class="filtro-link" href="catalogo.html">Todo</a></li>
+            <li><a class="filtro-link" href="catalogobodyboard.html">Bodyboard</a></li>
+            <li><a class="filtro-link" href="catalogotablas.html">Tablas Surf</a></li>
+            <li><a class="filtro-link" href="catalogoneoprenos.html">Neoprenos</a></li>
+            <li><a class="filtro-link is-active" href="catalogoaletas.html">Aletas</a></li>
+            <li><a class="filtro-link" href="catalogoaccesorios.html">Accesorios</a></li>
+          </ul>
+        </div>
+
+        <div class="filtro-bloque">
+          <h3>Precio</h3>
+          <div class="precio-flex">
+            <label>
+              <span>Desde</span>
+              <input type="number" min="0" step="1" placeholder="0">
+            </label>
+            <label>
+              <span>Hasta</span>
+              <input type="number" min="0" step="1" placeholder="600">
+            </label>
+          </div>
+          <button class="btn-sec" type="button">Aplicar</button>
+        </div>
+
+        <div class="filtro-bloque">
+          <h3>Marca</h3>
+          <label class="check"><input type="checkbox"> NMD</label>
+          <label class="check"><input type="checkbox"> Science</label>
+          <label class="check"><input type="checkbox"> VS</label>
+          <label class="check"><input type="checkbox"> Erizos</label>
+          <label class="check"><input type="checkbox"> Xcel</label>
+        </div>
+
+        <div class="filtro-bloque">
+          <h3>Disponibilidad</h3>
+          <label class="check"><input type="checkbox"> En stock</label>
+          <label class="check"><input type="checkbox"> Ofertas</label>
+          <label class="check"><input type="checkbox"> Novedades</label>
+        </div>
+
+        <div class="filtro-bloque">
+          <button class="btn" type="button">Limpiar filtros</button>
+        </div>
+      </aside>
+
+      <!-- LISTADO PRODUCTOS -->
+      <section class="listado" aria-label="Listado de productos">
+        <div class="productos-flex">
+
+          <article class="producto">
+            <a class="producto-media" href="#">
+              <img src="../../imagenes/alETAS.jpg" alt="Accesorios">
+            </a>
+            <div class="producto-info">
+              <h3 class="producto-nombre">ALETAS FOUND FINS BLUE / BLACK</h3>
+              <p class="producto-desc">Talla S/M/L</p>
+              <div class="producto-meta">
+                <span class="precio">59,90€</span>
+              </div>
+              <a class="btn-add" href="#">Añadir</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- PAGINACIÓN -->
+        <nav class="paginacion" aria-label="Paginación">
+          <a class="pag-btn" href="#" aria-disabled="true">‹</a>
+          <a class="pag-num" href="catalogo.html">1</a>
+          <a class="pag-num" href="catalogo2.html">2</a>
+         
+          <a class="pag-btn" href="#">›</a>
+        </nav>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER  -->
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p>Realizado por Alejandro Barragan Cubas</p>
+      <p>© 2026 LaEsquinaSurf.</p>
+    </div>
+  </footer>
+
+<script src="../../JS/fase5.js"></script>
+
+
+</body>
+</html>
